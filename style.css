@@ -1,0 +1,104 @@
+
+
+.wrapper {
+    width: 402px;
+    height: auto;
+    margin: 0 150px;
+    
+}
+
+.calc-board {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    justify-content:space-around;
+    background-color: grey;
+}
+
+.input-block {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+.inp {
+    margin-bottom: 20px;
+    background-color: #fff;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    box-shadow: 2px 4px 7px #1d1b1b;
+    
+    
+    
+}
+
+.btn-action {
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.btn-val {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 30px;
+    outline: none;
+    vertical-align: center;
+    text-align: center;
+    
+}
+
+.btn-plus {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    
+}
+
+.btn-minus {
+    background-color: red;
+    
+}
+
+.btn-minus span {
+    font-size: 38px;
+    justify-content: center;
+    line-height: 35px;
+    position: relative;
+    top: -4px
+}
+
+.wrap-btn-result {
+    width: auto;
+   display: flex;
+}
+.btn-result {
+    width: 100px;
+    margin: 0 auto;
+    width: auto;
+    height: 29px;
+    border-radius: 5px;
+    
+}
+
+
+.res-field {
+    text-align: center;
+}
+
+.val {
+    margin-top: -13px;
+    font-size: 30px;
+    color: white;
+}

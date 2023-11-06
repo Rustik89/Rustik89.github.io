@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>easy_calculator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="text-calc">Простой калькулятор на JS</h1>
+      <div class="calc-board">
+        <div class="input-block">
+          <input class="inp" type="text" name="num" id="num1" value="20" />
+          <input class="inp" type="text" name="num" id="num2" value="30" />
+        </div>
+        <div class="btn-action">
+          <button id="plus" class="btn-val btn-plus">+</button>
+          <button id="minus" class="btn-val btn-minus"><span>-</span></button>
+        </div>
+        <div class="wrap-btn-result">
+          <button id="submit" class="btn-result" type="submit">Вычислить</button>
+        </div>
+        <div class="res-field">
+          <h4>Результат:</h4>
+          <p id="result" class="val">49</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
