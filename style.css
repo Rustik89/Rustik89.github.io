@@ -1,35 +1,135 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="app.js" defer></script>
-    <title>easy_calculator</title>
-  </head>
-  <body>
-    <div class="wrapper">
-      <h1 class="text-calc">Простой калькулятор на JS</h1>
-      <div class="calc-board">
-        <div class="input-block">
-          <input placeholder="Саня, бля введи число" class="inp" type="text" name="num" id="num1" value="" />
-          <input placeholder="И второе число бля..." class="inp" type="text" name="num" id="num2" value="" />
-        </div>
-        <div class="btn-action">
-          <button id="plus" class="btn-val btn-plus">+</button>
-          <button id="minus" class="btn-val btn-minus"><span>-</span></button>
-          <button id="umnog" class="btn-val btn-umnog"><span>x</span></button>
-          <button id="delenie" class="btn-val btn-delenie"><span>/</span></button>
-        </div>
-        <div class="wrap-btn-result">
-          <button id="submit" class="btn-result" type="submit">Вычислить</button>
-        </div>
-        <div class="res-field">
-          <h4>Результат:</h4>
-          <p id="result" class="val"></p>
-          <span id="txt" class="text"></span>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+
+
+.wrapper {
+    width: 402px;
+    height: 700px;
+    margin: 0 150px;
+    
+}
+
+.calc-board {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    justify-content:space-around;
+    background-color: grey;
+}
+
+.input-block {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+.inp {
+    margin-bottom: 20px;
+    background-color: #fff;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    box-shadow: 2px 4px 7px #1d1b1b;
+    
+    
+    
+}
+
+.inp[placeholder] {
+    font-size: 15px;
+}
+
+.btn-action {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3px;
+    
+
+}
+
+.btn-val {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 30px;
+    outline: none;
+    vertical-align: center;
+    text-align: center;
+    
+}
+
+.btn-plus {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    
+}
+
+.btn-minus {
+    background-color: red;
+    
+}
+
+.btn-umnog {
+    background-color: blue;
+    
+}
+
+.btn-delenie {
+    background-color: black
+    
+}
+
+.btn-minus span {
+    font-size: 38px;
+    justify-content: center;
+    line-height: 35px;
+    position: relative;
+    top: -4px
+}
+
+.btn-umnog span {
+    font-size: 25px;
+    justify-content: center;
+    line-height: 35px;
+    position: relative;
+    top: -4px
+}
+
+.wrap-btn-result {
+    width: auto;
+   display: flex;
+}
+.btn-result {
+    width: 100px;
+    margin: 0 auto;
+    width: auto;
+    height: 29px;
+    border-radius: 5px;
+    margin: 20px auto
+    
+}
+
+
+.res-field {
+    text-align: center;
+    background-color: #fff;
+    margin: 20px;
+}
+
+.val {
+    margin-top: -13px;
+    font-size: 30px;
+    color: #000;
+}
+
+.text {
+    color:red;
+    font-size: 30px;
+}
