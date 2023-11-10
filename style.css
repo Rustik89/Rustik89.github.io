@@ -149,6 +149,12 @@
 
 }
 
+.btn-add span {
+  font-size: 0;
+}
 
 
-/* @media screen and (min-width: 1200px) */
+
+@media screen and (min-width: 346px) {
+
+}
