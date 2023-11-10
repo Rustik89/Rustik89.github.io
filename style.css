@@ -110,23 +110,23 @@
 }
 
 .btn-add {
-    background: #68a13e;
-    font-size: 13px;
-    color: white;
-    border-radius: 7px;
-    box-shadow: 0 7px 0px #356611;
-    display: flex;
-    justify-content: space-around;
-    transition: all 0.2s;
-    position: relative;
-    padding: 0px 11px;
-    position: relative;
-    top: -3px;
-    left: 38px;
-    cursor: pointer;
-    margin: 7px 20px 0px -38px;
-    text-align: center;
-    width: 100%;
+  background: #68a13e;
+  font-size: 16px;
+  color: white;
+  border-radius: 7px;
+  box-shadow: 0 7px 0px #356611;
+  display: flex;
+  justify-content: space-around;
+  transition: all 0.2s;
+  position: relative;
+  padding: 0px 11px;
+  position: relative;
+  top: -3px;
+  left: 38px;
+  cursor: pointer;
+  margin: 7px 20px 0px -38px;
+  text-align: center;
+  width: 100%;
 }
 
 .btn-add:active {
