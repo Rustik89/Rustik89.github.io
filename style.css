@@ -4,6 +4,8 @@
   color: #fff;
   font-size: 20px;
   margin: 0px 0px 0px 0px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .input-notes {
@@ -48,6 +50,11 @@
 
 .block-btn {
   margin: 5px;
+}
+
+.inp-btn {
+  display: flex;
+  align-items: center;
 }
 
 .btn-9 {
@@ -96,5 +103,44 @@
   transition: all 0.2s;
 }
 
+.btn-add-wrapp {
+  margin-top: 5px;
+  width: 100%;
+  padding: 10px;
+}
 
+.btn-add {
+  background: #68a13e;
+  font-size: 15px;
+  color: white;
+  border-radius: 7px;
+  box-shadow: 0 7px 0px #356611;
+  display: block;
+  transition: all 0.2s;
+  position: relative;
+  padding: 0px 8px;
+  position: relative;
+  top: -3px;
+  left: 38px;
+  cursor: pointer;
+  margin: 7px 20px 0px -38px;
+  text-align: center;
+  
+}
 
+.btn-add:active {
+  top: 3px;
+  box-shadow: 0 2px 0px #387796;
+  transition: all 0.2s;
+}
+
+.img-notes {
+  width: 50px;
+  height: 50px;
+  background-image: url(./notes.png);
+  background-size: cover;
+  position: relative;
+  top: -27px;
+  left: -19px;
+
+}
