@@ -1,0 +1,100 @@
+
+
+.hed-text {
+  color: #fff;
+  font-size: 20px;
+  margin: 0px 0px 0px 0px;
+}
+
+.input-notes {
+  border-radius: 6px;
+  border: none;
+  height: 31px;
+  padding: 11px;
+  margin-top: 12px;
+  outline-color:#7fc372;
+
+}
+
+
+
+.block-name {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapp {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 9px 20px 20px 20px;
+  margin-top: 20px;
+ 
+  border-radius: 10px;
+  background-color: gray;
+  -webkit-box-shadow: -3px 7px 25px 12px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -3px 7px 25px 12px rgba(34, 60, 80, 0.2);
+  box-shadow: -3px 7px 25px 12px rgba(34, 60, 80, 0.2);
+}
+
+.text-name {
+  margin-left: 12px;
+}
+
+.block-btn {
+  margin: 5px;
+}
+
+.btn-9 {
+  background: #68a13e;
+  font-size: 15px;
+  color: white;
+  border-radius: 7px;
+  box-shadow: 0 7px 0px #356611;
+  display: inline-block;
+  transition: all 0.2s;
+  position: relative;
+  padding: 0px 8px;
+  position: relative;
+  top: -3px;
+  left: 38px;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+.btn-9:active {
+  top: 3px;
+  box-shadow: 0 2px 0px #387796;
+  transition: all 0.2s;
+}
+
+.btn-10 {
+  background: #c71717;
+  font-size: 15px;
+  color: white;
+  border-radius: 7px;
+  box-shadow: 0 7px 0px #8d1010;
+  display: inline-block;
+  transition: all 0.2s;
+  position: relative;
+  padding: 0px 8px;
+  position: relative;
+  top: -3px;
+  left: 15px;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+.btn-10:active {
+  top: 3px;
+  box-shadow: 0 2px 0px #6d4141;
+  transition: all 0.2s;
+}
+
+
+
