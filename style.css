@@ -1,5 +1,6 @@
 .container {
   min-width: 379px;
+  margin: 0 auto;
 }
 
 .hed-text {
