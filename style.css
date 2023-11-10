@@ -36,7 +36,7 @@
   width: 100%;
   height: auto;
   display: inline-block;
-  padding: 9px 46px 20px 20px;
+  padding: 9px 17px 20px 20px;
   margin-top: 20px;
  
   border-radius: 10px;
@@ -129,6 +129,7 @@
   margin: 7px 20px 0px -38px;
   text-align: center;
   width: 100%;
+  text-decoration: none;
 }
 
 .btn-add:active {
