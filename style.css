@@ -1,5 +1,5 @@
 .container {
-  /* min-width: 379px; */
+  min-width: 379px;
   margin: 0 auto;
 }
 
@@ -33,10 +33,9 @@
 }
 
 .wrapp {
-  width: auto;
+  width: 100%;
   height: auto;
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
   padding: 9px 20px 20px 20px;
   margin-top: 20px;
  
@@ -149,9 +148,7 @@
 
 }
 
-.btn-add span {
-  font-size: 0;
-}
+
 
 
 
