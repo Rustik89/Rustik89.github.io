@@ -115,7 +115,8 @@
   color: white;
   border-radius: 7px;
   box-shadow: 0 7px 0px #356611;
-  display: block;
+  display: flex;
+  justify-content: space-around;
   transition: all 0.2s;
   position: relative;
   padding: 0px 8px;
@@ -125,6 +126,7 @@
   cursor: pointer;
   margin: 7px 20px 0px -38px;
   text-align: center;
+  width: 100%;
   
 }
 
