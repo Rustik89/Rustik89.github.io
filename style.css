@@ -1,4 +1,6 @@
-
+.container {
+  min-width: 379px;
+}
 
 .hed-text {
   color: #fff;
