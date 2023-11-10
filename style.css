@@ -153,6 +153,15 @@
 
 
 
-@media screen and (min-width: 346px) {
+@media (max-width: 500px) {
+  .btn-9 {
+    margin: 0px 7px;
+  }
+}
 
+@media (max-width: 368px) {
+  .btn-9 {
+    margin: 0px 7px;
+  }
+  
 }
