@@ -50,6 +50,10 @@
   margin-left: 12px;
 }
 
+.list-group {
+  list-style: none;
+}
+
 .block-btn {
   margin: 5px;
 }
@@ -59,7 +63,7 @@
   align-items: center;
 }
 
-.btn-9 {
+.btn-green {
   background: #68a13e;
   font-size: 15px;
   color: white;
@@ -76,13 +80,13 @@
   margin: 0 20px;
 }
 
-.btn-9:active {
+.btn-green:active {
   top: 3px;
   box-shadow: 0 2px 0px #387796;
   transition: all 0.2s;
 }
 
-.btn-10 {
+.btn-red {
   background: #c71717;
   font-size: 15px;
   color: white;
@@ -99,7 +103,8 @@
   margin: 0 20px;
 }
 
-.btn-10:active {
+
+.btn-red:active {
   top: 3px;
   box-shadow: 0 2px 0px #6d4141;
   transition: all 0.2s;
@@ -130,6 +135,15 @@
   text-align: center;
   width: 100%;
   text-decoration: none;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .btn-add:active {
