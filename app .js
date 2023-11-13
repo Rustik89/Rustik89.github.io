@@ -106,13 +106,14 @@ const notes = [
  ]
 
  function render () {
-
-    // for (let i = 0; i < notes.length; i++) {
-    //     listElement.insertAdjacentHTML('beforeend', getNoteTemplate(notes[i]))
-    // }
-    for (let note of notes) {
-        listElement.insertAdjacentHTML('beforeend', getNoteTemplate(note))
+    listElement.innerHTML = ''
+    if (notes.length === 0) {
+        listElement.innerHTML = '<p>Нет Заметок...</p>'
     }
+    for (let i = 0; i < notes.length; i++) {
+        listElement.insertAdjacentHTML('beforeend', getNoteTemplate(notes[i], i))
+    }
+    
 }
 render()
 
@@ -124,22 +125,42 @@ creatBtn.onclick = function () {
         title: inputElement.value,
         completed: false,
     }
-   listElement.insertAdjacentHTML(
-    'beforeend', getNoteTemplate(newNote))
+   notes.push(newNote)
+   render()
    inputElement.value = ''
+
 }
 
-function getNoteTemplate(note) {
+listElement.onclick = function (event) {
+    if (event.target.dataset.index) {
+        const index = parseInt(event.target.dataset.index)
+        const type = event.target.dataset.type
+
+        if (type === 'toggle') {
+            notes[index].completed = !notes[index].completed
+            
+        } else if (type === 'remove') {
+            notes.splice(index, 1)
+            
+        }
+        render()
+
+}
+}
+
+
+function getNoteTemplate(note, index) {
 
     return`
     <li>
         <div class="block-name mt-2">
         <span class="${note.completed ? 'text-decoration-line-through' : ''} text-name">${note.title}</span>
         <div class="block-btn">
-            <div class="btn-${note.completed ? 'red' : 'green'}"><i class="fa fa-check" aria-hidden="true"></i></div>
-            <div class="btn-red"><i class="fas fa-trash-alt"></i></div>
+            <div class="btn-my btn-success btn-${note.completed ? 'aqua' : 'success'}" data-index="${index}" data-type="toggle"></div>
+            <div class="btn-my btn-danger" data-type="remove" data-index="${index}"></div>
         </div>
         </div>
     </li>
    `
 }
+

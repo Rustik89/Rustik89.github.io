@@ -6,7 +6,7 @@
 .hed-text {
   color: #fff;
   font-size: 20px;
-  margin: 0px 0px 0px 0px;
+  margin: 12px 0px 0px 0px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -17,8 +17,11 @@
   height: 31px;
   padding: 11px;
   margin-top: 12px;
-  outline-color:#7fc372;
+  outline-color:#4a5374;
 
+}
+.input-notes::placeholder {
+  color: #1b65d3;
 }
 
 
@@ -55,15 +58,21 @@
 }
 
 .block-btn {
-  margin: 5px;
+  width: auto;
+  display: flex;
+  margin-right: 7px;
+  margin-top: 2px;
+  margin-bottom: -4px;
+ 
 }
 
 .inp-btn {
   display: flex;
-  align-items: center;
 }
 
-.btn-green {
+
+
+.btn-success {
   background: #68a13e;
   font-size: 15px;
   color: white;
@@ -71,22 +80,26 @@
   box-shadow: 0 7px 0px #356611;
   display: inline-block;
   transition: all 0.2s;
-  position: relative;
-  padding: 0px 8px;
+  margin: 4px 0px 11px 7px;
   position: relative;
   top: -3px;
-  left: 38px;
-  cursor: pointer;
-  margin: 0 20px;
-}
+  padding: 0px 14px;
+  background-image: url(icons8-check-30.png);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 23px;
+  
+  
 
-.btn-green:active {
-  top: 3px;
-  box-shadow: 0 2px 0px #387796;
-  transition: all 0.2s;
-}
+  /* cursor: pointer; */ 
+  
+} 
 
-.btn-red {
+
+
+
+
+.btn-danger {
   background: #c71717;
   font-size: 15px;
   color: white;
@@ -94,21 +107,64 @@
   box-shadow: 0 7px 0px #8d1010;
   display: inline-block;
   transition: all 0.2s;
-  position: relative;
-  padding: 0px 8px;
+  margin: 4px 0px 11px 7px;
   position: relative;
   top: -3px;
-  left: 15px;
+  padding: 0px 14px;
+  background-image: url(icons8-trash-26.png);
+  
+}
+
+.btn-my {
+  background-size: 18px;
+  background-position: 5px center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 23px;
   cursor: pointer;
-  margin: 0 20px;
+  
+}
+
+.btn-success:active {
+  top: 3px;
+  box-shadow: 0 2px 0px #387796;
+  transition: all 0.2s;
 }
 
 
-.btn-red:active {
+.btn-danger:active {
   top: 3px;
   box-shadow: 0 2px 0px #6d4141;
   transition: all 0.2s;
 }
+
+.btn-aqua {
+  background: #41bddb;
+  font-size: 15px;
+  color: white;
+  border-radius: 7px;
+  box-shadow: 0 7px 0px #2c7e92;
+  display: inline-block;
+  transition: all 0.2s;
+  margin: 4px 0px 11px 7px;
+  position: relative;
+  top: -3px;
+  padding: 0px 14px;
+  background-image: url(icons8-check-30.png);
+  background-size: 18px;
+  background-position: 5px center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 23px;
+  cursor: pointer;
+}
+
+.btn-aqua:active {
+  top: 3px;
+  box-shadow: 0 2px 0px #387796;
+  transition: all 0.2s;
+}
+
 
 .btn-add-wrapp {
   margin-top: 5px;
@@ -126,15 +182,21 @@
   justify-content: space-around;
   transition: all 0.2s;
   position: relative;
-  padding: 0px 11px;
+  padding: 2px 11px;
   position: relative;
-  top: -3px;
+  top: -5px;
   left: 38px;
   cursor: pointer;
-  margin: 7px 20px 0px -38px;
+  margin: 1px 20px 0px -38px;
   text-align: center;
   width: 100%;
   text-decoration: none;
+}
+
+.btn-add:active {
+  top: 3px;
+  box-shadow: 0 2px 0px #387796;
+  transition: all 0.2s;
 }
 
 .noselect {
@@ -146,11 +208,7 @@
 	user-select: none;
 }
 
-.btn-add:active {
-  top: 3px;
-  box-shadow: 0 2px 0px #387796;
-  transition: all 0.2s;
-}
+
 
 .img-notes {
   width: 50px;
@@ -159,7 +217,7 @@
   background-size: cover;
   position: relative;
   top: -27px;
-  left: -19px;
+  left: 2px;
 
 }
 
@@ -179,3 +237,5 @@
   }
   
 }
+
+
