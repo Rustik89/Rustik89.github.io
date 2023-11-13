@@ -221,21 +221,17 @@
 
 }
 
-
-
-
-
-@media (max-width: 500px) {
-  .btn-9 {
-    margin: 0px 7px;
-  }
+.no-notes {
+  width: 150px;
+  color: rgb(247 19 19 / 70%);
+  font-style: italic;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+ 
+ 
 }
 
-@media (max-width: 368px) {
-  .btn-9 {
-    margin: 0px 7px;
-  }
-  
-}
 
 
