@@ -91,7 +91,7 @@ person.getFullName()
 
 const notes = [
 {
-    title: 'Вывести Саню из депры',
+    title: 'позвать психиатра',
     completed: false,
 },
 {
