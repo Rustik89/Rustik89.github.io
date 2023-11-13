@@ -17,7 +17,7 @@ console.log(array[0])
 array[array.length] = 'becon'
 */
 
-// #title, #creat, #list
+// #title, #creat, #
 
 const inputElement = document.getElementById('title')
 const creatBtn = document.getElementById('creat')
