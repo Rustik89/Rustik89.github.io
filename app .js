@@ -91,17 +91,14 @@ person.getFullName()
 
 const notes = [
 {
-    title: 'позвать психиатра',
+    title: 'Обнять любимую Ану',
     completed: false,
 },
 {
-    title: 'Дать п@зд$ депрессии',
+    title: 'Получить мешалкой',
     completed: false,
 },
-{
-    title: 'Продать гараж',
-    completed: true,
-},
+
 
  ]
 
