@@ -26,7 +26,7 @@ const listElement = document.getElementById('list')
 
 // console.log(inputElement.value);
 
-// const notes = ['Заметка 1', 'Заметка 2', 'Заметка 3']
+// const notes = ['Обнять Любимую Ану', 'получить мешалкой']
 
 // function render () {
 
