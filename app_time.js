@@ -38,22 +38,3 @@ function format(formatMode) {
       return now.toLocaleTimeString()
   }
 }
-
-const imageList = ['sancho.png', 'ron.png']
-
-const img = document.querySelector('.img__arr')
-const next = document.querySelector('#next')
-
-let numImage = 0
-
-img.src = imageList[numImage]
-
-next.addEventListener('click', () => {
-  numImage++
-  if (numImage >= imageList.length) {
-    numImage = 0
-  }
-  console.log(numImage >= imageList.length)
-  console.log(numImage)
-  img.src = imageList[numImage]
-})
