@@ -34,14 +34,19 @@
             </ul>
           </nav>
           <img src="img/logo.svg" alt="logo" />
-          <ul class="nav">
+          <ul class="nav nav-info">
             <li class="nav-item"><a class="nav-link" href="#">Оплата</a></li>
             <li class="nav-item">
               <a class="nav-link" href="#">Доставка</a>
             </li>
           </ul>
-          <div class="cart">
+          <a class="cart">
             <span class="cart-count">5</span>
+          </a>
+          <div class="toggle-menu">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
           </div>
         </header>
       </div>
@@ -66,7 +71,7 @@
     </div>
     <div class="page page-dark notice">
       <div class="wrapper">
-        <h1 class="notice-title"><span>бесплатная доставка</span>от 3000₽</h1>
+        <h1 class="notice-title"><span>бесплатная доставка</span> от 3000₽</h1>
         <p class="notice-description">Сделайте заказ и получите подарок</p>
       </div>
     </div>
@@ -199,19 +204,42 @@
             </ul>
           </div>
         </footer>
-        </div>
       </div>
-      <div class="page page-policy">
-         <div class="wrapper">
-            <div class="policy-block">
-               <div class="copyright-text">
-                 Copyright © 2023. Все права защищены
-               </div>
-               <div class="policy-text">Политика приватности</div>
-             </div>
-         </div>
-         
-       </div>
     </div>
+    <div class="wrapper">
+      <div class="footer-bottom">
+        <p class="footer-bottom-copyright">
+          Copyright © 2023. Все права защищены
+        </p>
+        <a href="#" class="footer-bottom-link"> Политика приватности </a>
+      </div>
+    </div>
+
+    <div>
+      <div class="nav-bar">
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a href="" class="nav-link">Для мужчин</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="" class="nav-link">Для женщин</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="" class="nav-link">Для детей</a>
+          </li>
+          <li class="nav-list-item"><a href="" class="nav-link">Оплата</a></li>
+          <li class="nav-list-item">
+            <a href="" class="nav-link">Доставка</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script>
+      let toggleButton = document.querySelector('.toggle-menu')
+      let navBar = document.querySelector('.nav-bar')
+      toggleButton.addEventListener('click', function () {
+        navBar.classList.toggle('toggle')
+      })
+    </script>
   </body>
 </html>
