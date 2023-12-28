@@ -9,12 +9,17 @@
    margin-right: 20px;
 }
 
+h1 {
+  font-size: 16px;
+  color: white;
+}
+
 .d-flex {
    display: flex;
    
  }
  #diagram {
-  margin-left: -6px;
+  margin-left: -87px;
   padding: 20px;
  }
  #dark {
