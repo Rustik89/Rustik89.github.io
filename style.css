@@ -13,6 +13,10 @@
    display: flex;
    
  }
+ #diagram {
+  margin-left: -6px;
+  padding: 20px;
+ }
  #dark {
    background-color: #333;
    color: white;
