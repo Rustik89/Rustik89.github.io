@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,600,300italic,italic,700italic);
-@import url(https://fonts.googleapis.com/css?family=Cormorant:regular,300italic);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,regular,600,300italic,italic,700italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant:regular,300italic&display=swap");
 
 html {
   box-sizing: border-box;
