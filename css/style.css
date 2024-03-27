@@ -859,6 +859,13 @@ body {
   }
 
 }
+
+@media(max-width: 470px) {
+  .main-blog__item:nth-child(even) {
+    margin-left: 0;
+  }
+}
+
 @media (max-width: 360px) {
   .title {
     margin-bottom: 30px;
