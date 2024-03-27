@@ -757,7 +757,7 @@ body {
     margin-bottom: 0px;
   }
   .main-blog__item:nth-child(even) {
-    margin-left: 98px;
+    margin-left: 0;
 }
 }
 @media (max-width: 480px) {
