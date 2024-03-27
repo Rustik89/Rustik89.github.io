@@ -834,7 +834,8 @@ body {
     text-align: center;
   }
   .footer__nav {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
   .footer__social {
     margin-left: 30px;
