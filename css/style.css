@@ -913,7 +913,7 @@ body {
   }
   .reviews__item:last-child,
   .reviews__item:first-child {
-    display: none;
+    display: block;
   }
   .main-blog {
     padding: 50px 0;
