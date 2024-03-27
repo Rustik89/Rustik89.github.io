@@ -550,9 +550,7 @@ body {
   .assortment__list {
     gap: 0;
   }
-  .reviews__item:last-child {
-    display: none;
-  }
+  
   .main-blog {
     padding: 120px 0;
   }
