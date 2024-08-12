@@ -1,0 +1,14 @@
+<svg width="32.549072" height="32.549072" viewBox="0 0 32.5491 32.5491" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip5_29">
+			<rect id="svg.qodef-svg--button-arrow" rx="-0.500000" width="18.265688" height="25.765642" transform="translate(14.122925 33.049072) rotate(-135.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip5_29)">
+		<path id="Vector" d="M6.74 25.67L25.3 7.11" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="0.999746"/>
+		<path id="Vector" d="M12.11 7.31L25.23 7.31L25.23 20.43" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="0.999746"/>
+	</g>
+</svg>
