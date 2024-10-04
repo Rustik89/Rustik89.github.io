@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>"Go trip"</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css?_v=20241004193402"
+			integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css?_v=20241004193402"
+			integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./css/main.min.css?_v=20241004193402" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__top">
+					<nav class="nav">
+						<div class="nav__logo">
+							<h2 class="logo"><a href="#!">GoTrip</a></h2>
+						</div>
+						<ul class="nav__list">
+							<li><a class="active" href="#">Главная</a></li>
+							<li><a href="#!">Услуги</a></li>
+							<li><a href="#!">Цены</a></li>
+							<li><a href="#!">Контакты</a></li>
+						</ul>
+						<ul class="nav__login">
+							<li><a href="#!">Регистрация</a></li>
+							<li><a class="btn btn--login" href="#!">Вход</a></li>
+						</ul>
+
+						<button type="button" class="nav__toggle">
+							<div class="menu-icon-wrapper">
+								<div class="menu-icon"></div>
+							</div>
+						</button>
+					</nav>
+				</div>
+				<div class="header__row">
+					<div class="header__content">
+						<div class="header__badge">Исследуйте мир</div>
+						<h1 class="header__title">Исследуйте природную красоту Хальмахеры вместе с нами</h1>
+						<div class="header__text">
+							<p>исследуйте красоту божьей земли в прекрасном лесу и получайте удовольствие</p>
+						</div>
+						<a href="#!" class="btn btn--header">Исследовать сейчас</a>
+					</div>
+					<div class="header__img">
+						<picture>
+							<source srcset="./img/header/header-img.webp 1x" type="image/webp" />
+							<source srcset="./img/header/header-img.png 1x" type="image/png" />
+							<img src="./img/header/header-img.png" alt="Image" />
+						</picture>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="destinations">
+				<div class="container-right">
+					<div class="destinations__row">
+						<div class="destinations__content">
+							<h2 class="destinations__title">
+								<span>Выбор</span>
+								Направлений
+							</h2>
+							<div class="destinations__text">
+								<p>
+									Исследуйте красоту божьей земли в прекрасном лесу и получайте удовольствие
+								</p>
+							</div>
+							<a href="#!" class="btn">Исследовать сейчас</a>
+						</div>
+						<div class="destinations__slider">
+							<div class="slider">
+								<div class="owl-carousel">
+									<picture>
+										<source srcset="img/slider/01.webp 1x" type="image/webp" />
+										<source srcset="img/slider/01.jpg 1x" type="image/jpeg" />
+										<img class="slider__item" src="img/slider/01.jpg" alt="Slider item" />
+									</picture>
+									<picture>
+										<source srcset="img/slider/02.webp 1x" type="image/webp" />
+										<source srcset="img/slider/02.jpg 1x" type="image/jpeg" />
+										<img class="slider__item" src="img/slider/02.jpg" alt="Slider item" />
+									</picture>
+									<picture>
+										<source srcset="img/slider/03.webp 1x" type="image/webp" />
+										<source srcset="img/slider/03.jpg 1x" type="image/jpeg" />
+										<img class="slider__item" src="img/slider/03.jpg" alt="Slider item" />
+									</picture>
+								</div>
+								<button class="slider__btn slider__btn--prev">
+									<img src="img/slider/arrow-left.svg" alt="" />
+								</button>
+								<button class="slider__btn slider__btn--next">
+									<img src="img/slider/arrow-right.svg" alt="" />
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="customers">
+				<div class="container">
+					<div class="customers__row">
+						<div class="customers__img">
+							<picture>
+								<source srcset="img/customers/customize.webp 1x" type="image/webp" />
+								<source srcset="img/customers/customize.jpg 1x" type="image/jpeg" />
+								<img src="img/customers/customize.jpg" alt="Cusomers" />
+							</picture>
+						</div>
+						<div class="customers__content">
+							<h2 class="customers__title">
+								Что говорят о нас&nbsp;клиенты?
+							</h2>
+							<div class="review">
+								<div class="review__client">
+									<div class="review__client-avatar">
+										<picture>
+											<source srcset="img/customers/user-avatar.webp 1x" type="image/webp" />
+											<source srcset="img/customers/user-avatar.png 1x" type="image/png" />
+											<img src="img/customers/user-avatar.png" alt="User Avatar" />
+										</picture>
+									</div>
+									<div class="review__client-desc">
+										<h3 class="review__client-desc-name">Василий Пупкин</h3>
+										<p class="review__client-desc-country">Москва, Россия</p>
+									</div>
+								</div>
+								<div class="review__text">
+									<p>
+										Очень приятное обслуживание делает его комфортным и самым красивым местом в мире.
+									</p>
+								</div>
+								<div class="review__rating">
+									<img src="img/customers/stars-rating.svg" alt="Stars" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="cta">
+				<div class="container">
+					<div class="cta__plate">
+						<h2 class="cta__title">
+							Приготовьтесь и<br />
+							отправляйтесь на поиски вместе с нами.
+						</h2>
+						<div class="cta__text">
+							<p>Сегодня для вас самая выгодная скидка.</p>
+						</div>
+						<a href="#" class="btn">Начать</a>
+					</div>
+				</div>
+			</section>
+			<section class="subscribe">
+				<div class="container">
+					<div class="subscribe__content">
+						<h2 class="subscribe__title">Подпишитесь на нашу рассылку новостей</h2>
+						<form class="subscribe-form">
+							<input type="email" class="subscribe-form__input" placeholder="Введите вашу почту" />
+							<button class="btn btn--subscribe">Подписаться</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<nav class="nav nav--footer">
+					<div class="nav__logo">
+						<h2 class="logo logo--footer"><a href="#!">GoTrip</a></h2>
+					</div>
+					<ul class="nav__list--footer">
+						<li><a class="active" href="#">Главная</a></li>
+						<li><a href="#!">Услуги</a></li>
+						<li><a href="#!">Цены</a></li>
+						<li><a href="#!">Контакты</a></li>
+					</ul>
+					<ul class="nav__login nav__login--footer">
+						<li><a class="reg-footer" href="#!">Регистрация</a></li>
+						<li><a class="btn btn-login--footer" href="#!">Вход</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js?_v=20241004193402"
+			integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js?_v=20241004193402"
+			integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="./js/index.bundle.js?_v=20241004193402"></script>
+	</body>
+</html>
