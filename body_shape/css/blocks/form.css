@@ -1,0 +1,36 @@
+.form {
+  display: grid;
+  gap: 30px;
+}
+.form-group {
+}
+.label {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+}
+.input {
+  width: 100%;
+  display: block;
+  padding: 5px 0px 9.5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  font-weight: 200;
+}
+.textarea {
+  resize: vertical;
+  height: 157px;
+  width: 100%;
+  display: block;
+  padding: 5px 0 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  line-height: 1.5;
+  font-weight: 200;
+}
+
+.textarea:focus {
+  outline: none;
+}
+
+.button {
+}
