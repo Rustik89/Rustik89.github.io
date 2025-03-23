@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Удалить пост</title>
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__row">
+					<div class="header__logo">
+						<div class="logo">
+							<a href="index.html" class="logo__link">MY&#160;BLOG</a>
+						</div>
+					</div>
+
+					<div class="header__btns">
+						<a href="create-post.html" class="button">Добавить пост</a>
+						<a href="login.html" class="button">Вход</a>
+						<a href="#!" class="button toggleDarkModeBtn">🌘</a>
+					</div>
+					<div class="header__mobile-nav-btn">
+						<button class="mobile-nav-btn">
+							<div class="nav-icon"></div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="mobile-nav">
+			<a href="create-post.html" class="button">Добавить пост</a>
+			<a href="login.html" class="button">Вход</a>
+			<a href="#!" class="button toggleDarkModeBtn">🌘</a>
+		</div>
+
+		<main class="page-content">
+			<div class="container container-narrow">
+				<form class="form">
+					<h2 class="form__title">Удалить пост?</h2>
+
+					<article class="post post--preview">
+						<div class="post__date">16.03.2025</div>
+						<h2 class="post__title">
+							Сила, заключённая в&#160;металле
+						</h2>
+						<div class="post__img-wrapper">
+							<picture>
+								<source srcset="./img/01.webp 1x, ./img/01@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/01.jpg 1x, ./img/01@2x.jpg 2x" type="image/jpeg" />
+								<img class="post__img" src="./img/01.jpg" alt="" />
+							</picture>
+						</div>
+						<div class="post__text">
+							<p>
+								Некоторые автомобили созданы не&#160;просто для передвижения&#160;&#8212; они олицетворяют мощь, свободу и&#160;стиль. Этот мускулистый Dodge
+								Challenger в&#160;бирюзовом цвете&#160;&#8212; настоящий символ американской автомобильной культуры. Его агрессивный силуэт, заниженная посадка и
+								черные диски говорят сами за&#160;себя: это машина, которая требует дороги.
+							</p>
+						</div>
+						<div class="post__readmore">
+							<a href="post.html" class="link">Читать далее</a>
+						</div>
+					</article>
+
+					<div class="form__btns-wrapper">
+						<button class="button button--lg">Удалить</button>
+						<button class="button button--secondary button--lg">
+							Отмена
+						</button>
+					</div>
+				</form>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__copyright">
+				&#169; 2025 Мой сайт
+			</div>
+		</footer>
+
+		<!-- <script>
+    const darkModeBtn = document.querySelector('#toggleDarkMode');
+    darkModeBtn.onclick = toggleDarkMode;
+
+    function toggleDarkMode() {
+        let darkMode = document.body.classList.toggle('dark');
+        if (darkMode) {
+            darkModeBtn.innerText = '☀️';
+        } else {
+            darkModeBtn.innerText = '🌘';
+        }
+    }
+</script> -->
+
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Редактировать пост</title>
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__row">
+					<div class="header__logo">
+						<div class="logo">
+							<a href="index.html" class="logo__link">MY&#160;BLOG</a>
+						</div>
+					</div>
+
+					<div class="header__btns">
+						<a href="create-post.html" class="button">Добавить пост</a>
+						<a href="login.html" class="button">Вход</a>
+						<a href="#!" class="button toggleDarkModeBtn">🌘</a>
+					</div>
+					<div class="header__mobile-nav-btn">
+						<button class="mobile-nav-btn">
+							<div class="nav-icon"></div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="mobile-nav">
+			<a href="create-post.html" class="button">Добавить пост</a>
+			<a href="login.html" class="button">Вход</a>
+			<a href="#!" class="button toggleDarkModeBtn">🌘</a>
+		</div>
+
+		<main class="page-content">
+			<div class="container container-narrow">
+				<form class="form">
+					<h2 class="form__title">Редактировать</h2>
+					<label class="fieldset">
+						<div class="label">Название</div>
+						<input type="text" class="input" value="Утреннее спокойствие на берегу озера" />
+					</label>
+
+					<label class="fieldset">
+						<div class="label">Содержание</div>
+						<textarea name="" id="" class="textarea">
+Есть места, где время словно замедляет свой&#160;бег. Терраса с&#160;панорамным видом на&#160;озеро, высокие горы, окутанные легкой дымкой, и&#160;утренний воздух, наполненный ароматами природы. Здесь нет суеты, только тишина, покой и&#160;ощущение гармонии. Представьте, как вы&#160;выходите босиком на&#160;прохладную плитку, завариваете чашку свежего кофе и&#160;садитесь в&#160;шезлонг, наслаждаясь неспешным началом&#160;дня. Такой отдых пробуждает внутреннее вдохновение и&#160;напоминает о&#160;простых радостях жизни. Где вы&#160;хотели&#160;бы остановиться, чтобы почувствовать настоящий дзен? 🌿✨
+                        </textarea>
+					</label>
+					<fieldset class="fieldset">
+						<div class="label">Обложка</div>
+						<div class="fieldset__cover-wrapper">
+							<picture>
+								<source srcset="./img/cover-edit.webp 1x, ./img/cover-edit@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/cover-edit.jpg 1x, ./img/cover-edit@2x.jpg 2x" type="image/jpeg" />
+								<img src="./img/cover-edit.jpg" class="fieldset__cover" alt="" />
+							</picture>
+						</div>
+						<label class="fieldset fieldset--checkbox">
+							<input type="checkbox" />
+							Удалить обложку
+						</label>
+
+						<input type="file" />
+					</fieldset>
+
+					<div class="form__btns-wrapper">
+						<button class="button button--lg">Обновить</button>
+						<button class="button button--secondary button--lg">
+							Отмена
+						</button>
+					</div>
+				</form>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__copyright">
+				&#169; 2025 Мой сайт
+			</div>
+		</footer>
+
+		<!-- <script>
+    const darkModeBtn = document.querySelector('#toggleDarkMode');
+    darkModeBtn.onclick = toggleDarkMode;
+
+    function toggleDarkMode() {
+        let darkMode = document.body.classList.toggle('dark');
+        if (darkMode) {
+            darkModeBtn.innerText = '☀️';
+        } else {
+            darkModeBtn.innerText = '🌘';
+        }
+    }
+</script> -->
+
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>

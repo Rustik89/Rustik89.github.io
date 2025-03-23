@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Вход</title>
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__row">
+					<div class="header__logo">
+						<div class="logo">
+							<a href="index.html" class="logo__link">MY&#160;BLOG</a>
+						</div>
+					</div>
+
+					<div class="header__btns">
+						<a href="create-post.html" class="button">Добавить пост</a>
+						<a href="login.html" class="button">Вход</a>
+						<a href="#!" class="button toggleDarkModeBtn">🌘</a>
+					</div>
+					<div class="header__mobile-nav-btn">
+						<button class="mobile-nav-btn">
+							<div class="nav-icon"></div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="mobile-nav">
+			<a href="create-post.html" class="button">Добавить пост</a>
+			<a href="login.html" class="button">Вход</a>
+			<a href="#!" class="button toggleDarkModeBtn">🌘</a>
+		</div>
+
+		<main class="page-content">
+			<div class="container container-narrow">
+				<form class="form">
+					<h2 class="form__title">Вход</h2>
+					<label class="fieldset">
+						<div class="label">Email</div>
+						<input type="text" class="input" />
+					</label>
+
+					<label class="fieldset">
+						<div class="label">Пароль</div>
+						<input type="password" class="input" />
+					</label>
+					<button class="button button--lg">Войти</button>
+				</form>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__copyright">
+				&#169; 2025 Мой сайт
+			</div>
+		</footer>
+
+		<!-- <script>
+    const darkModeBtn = document.querySelector('#toggleDarkMode');
+    darkModeBtn.onclick = toggleDarkMode;
+
+    function toggleDarkMode() {
+        let darkMode = document.body.classList.toggle('dark');
+        if (darkMode) {
+            darkModeBtn.innerText = '☀️';
+        } else {
+            darkModeBtn.innerText = '🌘';
+        }
+    }
+</script> -->
+
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>
